@@ -423,6 +423,9 @@ section {
                     .web {
                         width: 40%
                     }
+                    .ios{
+                        width: 20%;
+                    }
                 }
             }
         }
@@ -694,10 +697,11 @@ section {
 
 .contact-content-con .right-contact .i-c-2 {
     display: flex;
+    grid-gap: 1rem;
 }
 
 .contact-content-con .right-contact .i-c-2 :last-child {
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
 }
 
 .contact-content-con .right-contact .submit-btn {
