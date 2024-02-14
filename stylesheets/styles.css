@@ -1,0 +1,43 @@
+header {
+    background-color: red;
+
+    h4 {
+        text-align: center;
+        padding: 2%;
+    }
+}
+
+main {
+    text-align: center;
+}
+
+.course-description {
+    display: none;
+}
+
+.course-title:hover+.course-description {
+    display: block;
+    animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .col {
+        flex: 0 0 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .col {
+        flex: 0 0 100%;
+    }
+}
