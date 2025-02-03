@@ -1,2 +1,3 @@
-# Personal-Website
-This repository contains the source code and files of my portfolio website.
+# Hello All!
+
+My name is Steven Sousa and I am a senior computer scientist at Bridgewater State University.
